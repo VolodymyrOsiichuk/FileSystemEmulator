@@ -1,0 +1,296 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ruslan\\Documents\\домашка\\ОсійчукВолодимир\\ООП\\Практика ООП\\FileSystemEmulator\\FileSystemEmulator.Tests\\FileSystemEmulator.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ruslan\\Documents\\домашка\\ОсійчукВолодимир\\ООП\\Практика ООП\\FileSystemEmulator\\FileSystemEmulator.Application\\FileSystemEmulator.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ruslan\\Documents\\домашка\\ОсійчукВолодимир\\ООП\\Практика ООП\\FileSystemEmulator\\FileSystemEmulator.Application\\FileSystemEmulator.Application.csproj",
+        "projectName": "FileSystemEmulator.Application",
+        "projectPath": "C:\\Users\\ruslan\\Documents\\домашка\\ОсійчукВолодимир\\ООП\\Практика ООП\\FileSystemEmulator\\FileSystemEmulator.Application\\FileSystemEmulator.Application.csproj",
+        "packagesPath": "C:\\Users\\ruslan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ruslan\\Documents\\домашка\\ОсійчукВолодимир\\ООП\\Практика ООП\\FileSystemEmulator\\FileSystemEmulator.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ruslan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\ruslan\\Documents\\домашка\\ОсійчукВолодимир\\ООП\\Практика ООП\\FileSystemEmulator\\FileSystemEmulator.Core\\FileSystemEmulator.Core.csproj": {
+                "projectPath": "C:\\Users\\ruslan\\Documents\\домашка\\ОсійчукВолодимир\\ООП\\Практика ООП\\FileSystemEmulator\\FileSystemEmulator.Core\\FileSystemEmulator.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ruslan\\Documents\\домашка\\ОсійчукВолодимир\\ООП\\Практика ООП\\FileSystemEmulator\\FileSystemEmulator.Core\\FileSystemEmulator.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ruslan\\Documents\\домашка\\ОсійчукВолодимир\\ООП\\Практика ООП\\FileSystemEmulator\\FileSystemEmulator.Core\\FileSystemEmulator.Core.csproj",
+        "projectName": "FileSystemEmulator.Core",
+        "projectPath": "C:\\Users\\ruslan\\Documents\\домашка\\ОсійчукВолодимир\\ООП\\Практика ООП\\FileSystemEmulator\\FileSystemEmulator.Core\\FileSystemEmulator.Core.csproj",
+        "packagesPath": "C:\\Users\\ruslan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ruslan\\Documents\\домашка\\ОсійчукВолодимир\\ООП\\Практика ООП\\FileSystemEmulator\\FileSystemEmulator.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ruslan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ruslan\\Documents\\домашка\\ОсійчукВолодимир\\ООП\\Практика ООП\\FileSystemEmulator\\FileSystemEmulator.Infrastructure\\FileSystemEmulator.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ruslan\\Documents\\домашка\\ОсійчукВолодимир\\ООП\\Практика ООП\\FileSystemEmulator\\FileSystemEmulator.Infrastructure\\FileSystemEmulator.Infrastructure.csproj",
+        "projectName": "FileSystemEmulator.Infrastructure",
+        "projectPath": "C:\\Users\\ruslan\\Documents\\домашка\\ОсійчукВолодимир\\ООП\\Практика ООП\\FileSystemEmulator\\FileSystemEmulator.Infrastructure\\FileSystemEmulator.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\ruslan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ruslan\\Documents\\домашка\\ОсійчукВолодимир\\ООП\\Практика ООП\\FileSystemEmulator\\FileSystemEmulator.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ruslan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\ruslan\\Documents\\домашка\\ОсійчукВолодимир\\ООП\\Практика ООП\\FileSystemEmulator\\FileSystemEmulator.Core\\FileSystemEmulator.Core.csproj": {
+                "projectPath": "C:\\Users\\ruslan\\Documents\\домашка\\ОсійчукВолодимир\\ООП\\Практика ООП\\FileSystemEmulator\\FileSystemEmulator.Core\\FileSystemEmulator.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ruslan\\Documents\\домашка\\ОсійчукВолодимир\\ООП\\Практика ООП\\FileSystemEmulator\\FileSystemEmulator.Tests\\FileSystemEmulator.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ruslan\\Documents\\домашка\\ОсійчукВолодимир\\ООП\\Практика ООП\\FileSystemEmulator\\FileSystemEmulator.Tests\\FileSystemEmulator.Tests.csproj",
+        "projectName": "FileSystemEmulator.Tests",
+        "projectPath": "C:\\Users\\ruslan\\Documents\\домашка\\ОсійчукВолодимир\\ООП\\Практика ООП\\FileSystemEmulator\\FileSystemEmulator.Tests\\FileSystemEmulator.Tests.csproj",
+        "packagesPath": "C:\\Users\\ruslan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ruslan\\Documents\\домашка\\ОсійчукВолодимир\\ООП\\Практика ООП\\FileSystemEmulator\\FileSystemEmulator.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ruslan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\ruslan\\Documents\\домашка\\ОсійчукВолодимир\\ООП\\Практика ООП\\FileSystemEmulator\\FileSystemEmulator.Application\\FileSystemEmulator.Application.csproj": {
+                "projectPath": "C:\\Users\\ruslan\\Documents\\домашка\\ОсійчукВолодимир\\ООП\\Практика ООП\\FileSystemEmulator\\FileSystemEmulator.Application\\FileSystemEmulator.Application.csproj"
+              },
+              "C:\\Users\\ruslan\\Documents\\домашка\\ОсійчукВолодимир\\ООП\\Практика ООП\\FileSystemEmulator\\FileSystemEmulator.Core\\FileSystemEmulator.Core.csproj": {
+                "projectPath": "C:\\Users\\ruslan\\Documents\\домашка\\ОсійчукВолодимир\\ООП\\Практика ООП\\FileSystemEmulator\\FileSystemEmulator.Core\\FileSystemEmulator.Core.csproj"
+              },
+              "C:\\Users\\ruslan\\Documents\\домашка\\ОсійчукВолодимир\\ООП\\Практика ООП\\FileSystemEmulator\\FileSystemEmulator.Infrastructure\\FileSystemEmulator.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\ruslan\\Documents\\домашка\\ОсійчукВолодимир\\ООП\\Практика ООП\\FileSystemEmulator\\FileSystemEmulator.Infrastructure\\FileSystemEmulator.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.12.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.72, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.9.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

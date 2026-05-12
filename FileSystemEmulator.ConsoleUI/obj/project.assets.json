@@ -1,11 +1,68 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {}
+    "net9.0": {
+      "FileSystemEmulator.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "FileSystemEmulator.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FileSystemEmulator.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FileSystemEmulator.Application.dll": {}
+        }
+      },
+      "FileSystemEmulator.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/FileSystemEmulator.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FileSystemEmulator.Core.dll": {}
+        }
+      },
+      "FileSystemEmulator.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "FileSystemEmulator.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FileSystemEmulator.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FileSystemEmulator.Infrastructure.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "FileSystemEmulator.Application/1.0.0": {
+      "type": "project",
+      "path": "../FileSystemEmulator.Application/FileSystemEmulator.Application.csproj",
+      "msbuildProject": "../FileSystemEmulator.Application/FileSystemEmulator.Application.csproj"
+    },
+    "FileSystemEmulator.Core/1.0.0": {
+      "type": "project",
+      "path": "../FileSystemEmulator.Core/FileSystemEmulator.Core.csproj",
+      "msbuildProject": "../FileSystemEmulator.Core/FileSystemEmulator.Core.csproj"
+    },
+    "FileSystemEmulator.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../FileSystemEmulator.Infrastructure/FileSystemEmulator.Infrastructure.csproj",
+      "msbuildProject": "../FileSystemEmulator.Infrastructure/FileSystemEmulator.Infrastructure.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net9.0": []
+    "net9.0": [
+      "FileSystemEmulator.Application >= 1.0.0",
+      "FileSystemEmulator.Core >= 1.0.0",
+      "FileSystemEmulator.Infrastructure >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\ruslan\\.nuget\\packages\\": {}
@@ -34,7 +91,17 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\ruslan\\Documents\\домашка\\ОсійчукВолодимир\\ООП\\Практика ООП\\FileSystemEmulator\\FileSystemEmulator.Application\\FileSystemEmulator.Application.csproj": {
+              "projectPath": "C:\\Users\\ruslan\\Documents\\домашка\\ОсійчукВолодимир\\ООП\\Практика ООП\\FileSystemEmulator\\FileSystemEmulator.Application\\FileSystemEmulator.Application.csproj"
+            },
+            "C:\\Users\\ruslan\\Documents\\домашка\\ОсійчукВолодимир\\ООП\\Практика ООП\\FileSystemEmulator\\FileSystemEmulator.Core\\FileSystemEmulator.Core.csproj": {
+              "projectPath": "C:\\Users\\ruslan\\Documents\\домашка\\ОсійчукВолодимир\\ООП\\Практика ООП\\FileSystemEmulator\\FileSystemEmulator.Core\\FileSystemEmulator.Core.csproj"
+            },
+            "C:\\Users\\ruslan\\Documents\\домашка\\ОсійчукВолодимир\\ООП\\Практика ООП\\FileSystemEmulator\\FileSystemEmulator.Infrastructure\\FileSystemEmulator.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\ruslan\\Documents\\домашка\\ОсійчукВолодимир\\ООП\\Практика ООП\\FileSystemEmulator\\FileSystemEmulator.Infrastructure\\FileSystemEmulator.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

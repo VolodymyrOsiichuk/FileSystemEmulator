@@ -8,7 +8,7 @@ public class FileItem : FileSystemItem
     public FileType FileType { get; private set; }
     public string Extension { get; private set; } = default!;
     public long Size { get; private set; }
-    public string Сontent { get; private set; } = default!;
+    public string Content { get; private set; } = default!;
 
     public FileItem(
         string name,
@@ -21,9 +21,9 @@ public class FileItem : FileSystemItem
         Extension = extension;
         FileType = fileType;
         Size = size;
-        Сontent = content;
+        Content = content;
     }
-
+    
     public override long GetSize()
     {
         return Size;

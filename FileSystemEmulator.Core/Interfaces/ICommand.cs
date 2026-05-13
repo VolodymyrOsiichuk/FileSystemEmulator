@@ -4,6 +4,6 @@ namespace FileSystemEmulator.Core.Interfaces;
 public interface ICommand
 {
     void Execute();
-    void undo();
+    void Undo();
     string Description { get; }
 }

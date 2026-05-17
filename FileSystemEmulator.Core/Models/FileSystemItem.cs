@@ -1,5 +1,4 @@
-using System.Security.Cryptography.X509Certificates;
-
+using System.Text.Json.Serialization;
 namespace FileSystemEmulator.Core.Models;
 
 
@@ -8,6 +7,7 @@ public abstract class FileSystemItem
     public Guid id { get; private set; }
     public string Name { get; private set; } = default!;
     public DateTime CreatedAt { get; private set; }
+    [JsonIgnore]
     public DirectoryItem? Parent { get; set; }
 
     protected FileSystemItem(string name)

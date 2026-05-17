@@ -10,7 +10,7 @@ public class FileSystemService
 {
     private readonly UndoRedoMenager _manager = new();
 
-    public FileSystemService(ICommand command)
+    public void ExecuteCommand(ICommand command)
     {
         _manager.ExecuteCommand(command);
     }
